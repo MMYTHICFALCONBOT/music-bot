@@ -1,5 +1,3 @@
-require('dotenv').config(); // Load environment variables
-
 module.exports = {
     prefix: '!',
     nodes: [{
@@ -13,6 +11,6 @@ module.exports = {
         clientId: "a568b55af1d940aca52ea8fe02f0d93b",
         clientSecret: "e8199f4024fe49c5b22ea9a3dd0c4789"
     },
-    botToken: process.env.BOT_TOKEN, // Load token from .env
+    botToken: "",
     embedColor: "#0061ff"
 };
